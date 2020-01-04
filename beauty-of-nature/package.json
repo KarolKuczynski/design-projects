@@ -1,0 +1,14 @@
+{
+  "name": "beauty-of-nature",
+  "version": "1.0.0",
+  "description": "Simple web site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "KarolKuczynski",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.13.0"
+  }
+}
