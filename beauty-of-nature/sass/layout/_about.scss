@@ -1,26 +1,15 @@
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  color: white; }
-
-header {
-  background-color: yellowgreen;
-  text-align: center; }
-  header h1 {
-    margin: 0;
-    font-size: 2rem;
-    padding: 1.2rem; }
-
 .about {
   background-color: #bbbbbb;
-  padding: 2rem; }
-  .about .picture {
+  padding: 2rem;
+
+  .picture {
     margin-bottom: 2rem;
     padding: 1rem 2rem;
     height: 10rem;
+
     background: url(https://source.unsplash.com/jFCViYFYcus/640x480);
     background-size: cover;
+
     /*
     :first-of-type {
       background: url(https://source.unsplash.com/jFCViYFYcus/640x480);
@@ -29,6 +18,10 @@ header {
 
     :last-of-type {
       background: url(https://source.unsplash.com/-QKpblZde5I/640x480);
-    }*/ }
-    .about .picture p {
-      margin: 0; }
+    }*/
+
+    p {
+      margin: 0;
+    }
+  }
+}
