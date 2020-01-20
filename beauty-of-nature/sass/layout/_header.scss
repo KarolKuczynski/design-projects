@@ -1,10 +1,13 @@
 header {
-  background-color: yellowgreen;
-  text-align: center;
+  background: url(https://source.unsplash.com/-QKpblZde5I/640x480);
+  background-position: center;
+  background-size: cover;
+  height: 15rem;
+  position: relative;
 
   h1 {
-    margin: 0;
-    font-size: 2rem;
-    padding: 1.2rem;
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
   }
 }

@@ -2,24 +2,27 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: white; }
+  color: white;
+  font-family: "Gayathri", sans-serif; }
 
 header {
-  background-color: yellowgreen;
-  text-align: center; }
+  background: url(https://source.unsplash.com/-QKpblZde5I/640x480);
+  background-position: center;
+  background-size: cover;
+  height: 15rem;
+  position: relative; }
   header h1 {
-    margin: 0;
-    font-size: 2rem;
-    padding: 1.2rem; }
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem; }
 
 .about {
-  background-color: #bbbbbb;
-  padding: 2rem; }
+  background-color: #000;
+  padding: 0.5rem; }
   .about .picture {
     margin-bottom: 2rem;
     padding: 1rem 2rem;
     height: 10rem;
-    background: url(https://source.unsplash.com/jFCViYFYcus/640x480);
     background-size: cover;
     /*
     :first-of-type {
@@ -32,3 +35,7 @@ header {
     }*/ }
     .about .picture p {
       margin: 0; }
+  .about :nth-child(1) {
+    background: url(https://source.unsplash.com/jFCViYFYcus/320x240); }
+  .about :nth-child(2) {
+    background: url(https://source.unsplash.com/-QKpblZde5I/320x240); }
