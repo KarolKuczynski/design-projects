@@ -1,6 +1,9 @@
-@import "abstracts/_variables";
+@import "abstracts/variables";
 
-@import "base/_base";
+@import "base/base";
 
-@import "layout/_header";
+@import "layout/header";
 @import "layout/about";
+@import "layout/trails";
+
+@import "components/card";
