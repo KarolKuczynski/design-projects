@@ -1,0 +1,22 @@
+.form-group {
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 0.8rem;
+
+  span {
+    padding-right: 1rem;
+  }
+
+  input {
+    background: transparent;
+    border: none;
+    border-bottom: solid 1px $text-color;
+    color: $text-color;
+  }
+
+  input:focus {
+    outline: transparent;
+  }
+}
